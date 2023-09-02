@@ -14,8 +14,8 @@ const projects = [
     color: "#00A86B"
   },
   {
-    title: "Office Studio",
-    src: "officestudio.png",
+    title: "Frontend Machine",
+    src: "image 4.png",
     color: "#8C8C8C"
   },
   {

@@ -11,7 +11,7 @@ const projects = [
   {
     title: "Madhyam",
     src: "image 2.png",
-    color: "#000000"
+    color: "#FFFFFF"
   },
   {
     title: "Office Studio",

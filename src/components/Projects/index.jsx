@@ -10,7 +10,7 @@ import Rounded from '../../common/RoundedButton';
 const projects = [
   {
     title: "Madhyam",
-    src: "c2montreal.png",
+    src: "image 1.png",
     color: "#000000"
   },
   {

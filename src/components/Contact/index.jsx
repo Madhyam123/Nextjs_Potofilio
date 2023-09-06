@@ -47,7 +47,7 @@ function Index() {
                         </Rounded>
                 </div>
                 <div className={styles.info}>
-                    <div>
+{/*                     <div>
                         <span>
                             <h3>Version</h3>
                             <p>2022 © Edition</p>
@@ -56,7 +56,7 @@ function Index() {
                             <h3>Version</h3>
                             <p>11:49 PM GMT+2</p>
                         </span>
-                    </div>
+                    </div> */}
                     <div>
                         <span>
                             <h3>socials</h3>

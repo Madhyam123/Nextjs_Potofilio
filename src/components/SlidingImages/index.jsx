@@ -90,7 +90,7 @@ function Index() {
     const x2 = useTransform(scrollYProgress, [0, 1], [0, -200])
     const x3 = useTransform(scrollYProgress, [0, 1], [0, 200])
     const x4 = useTransform(scrollYProgress, [0, 1], [0, -200])
-    const height = useTransform(scrollYProgress, [0, 1], [50, 0])
+    const height = useTransform(scrollYProgress, [0, 1], [20, 0])
 
     return (
         <div ref={container} className={styles.slidingImages}>
@@ -100,6 +100,7 @@ function Index() {
                             return <div key={index} className={styles.project} style={{backgroundColor: project.color}} >
                                 <div key={index} className={styles.imageContainer}>
                                     <Image 
+                                    sizes={50}
                                     fill={true}
                                     alt={"image"}
                                     src={`/images/${project.src}`}/>

@@ -59,6 +59,7 @@ const slider3 = [
         src: "dsc.jpg"
     }
 ]
+
 const slider4 = [
     {
         color: "#77C2CF",

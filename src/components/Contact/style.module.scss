@@ -142,6 +142,12 @@
         width: 30px;
         height: 30px;
     }
+     .contact{
+        height: 100vh;
+    }
+    .body{
+        height: fit-content;
+    }
     .no{
   display: none;
     }
@@ -152,6 +158,11 @@
         position: absolute;
         left: 50vw;
         top: -5vw
+    }
+     .info{
+        padding: 0;
+        margin: 0;
+        height: fit-content;
     }
     
 }

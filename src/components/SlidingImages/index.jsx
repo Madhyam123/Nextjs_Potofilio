@@ -59,6 +59,24 @@ const slider3 = [
         src: "dsc.jpg"
     }
 ]
+const slider4 = [
+    {
+        color: "#77C2CF",
+        src: "react.jpg"
+    },
+    {
+        color: "#F6CF13",
+        src: "ml.jpg"
+    },
+    {
+        color: "#013153",
+        src: "microsoft.jpg"
+    },
+    {
+        color: "#506EC2",
+        src: "gl.jpg"
+    }
+]
 
 function Index() {
 
@@ -68,10 +86,11 @@ function Index() {
         offset: ["start end", "end start"]
     })
 
-    const x1 = useTransform(scrollYProgress, [0, 1], [0, 150])
-    const x2 = useTransform(scrollYProgress, [0, 1], [0, -150])
-    const x3 = useTransform(scrollYProgress, [0, 1], [0, 150])
-    const height = useTransform(scrollYProgress, [0, 0.9], [50, 0])
+    const x1 = useTransform(scrollYProgress, [0, 1], [0, 200])
+    const x2 = useTransform(scrollYProgress, [0, 1], [0, -200])
+    const x3 = useTransform(scrollYProgress, [0, 1], [0, 200])
+    const x4 = useTransform(scrollYProgress, [0, 1], [0, -200])
+    const height = useTransform(scrollYProgress, [0, 1], [50, 0])
 
     return (
         <div ref={container} className={styles.slidingImages}>
@@ -106,6 +125,20 @@ function Index() {
                 <motion.div style={{x: x3}} className={styles.slider}>
                     {
                         slider3.map( (project, index) => {
+                            return <div key={index} className={styles.project} style={{backgroundColor: project.color}} >
+                                <div  className={styles.imageContainer}>
+                                    <Image 
+                                    fill={true}
+                                    alt={"image"}
+                                    src={`/images/${project.src}`}/>
+                                </div>
+                            </div>
+                        })
+                    }
+                </motion.div>
+                <motion.div style={{x: x4}} className={styles.slider}>
+                    {
+                        slider4.map( (project, index) => {
                             return <div key={index} className={styles.project} style={{backgroundColor: project.color}} >
                                 <div  className={styles.imageContainer}>
                                     <Image 

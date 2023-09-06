@@ -42,9 +42,9 @@ function Index() {
                         <Rounded>
                             <p>madhyambharati@gmail.com</p>
                         </Rounded>
-                        <Rounded>
+{/*                         <Rounded>
                             <p className={styles.no}>+7021644253</p>
-                        </Rounded>
+                        </Rounded> */}
                 </div>
                 <div className={styles.info}>
 {/*                     <div>

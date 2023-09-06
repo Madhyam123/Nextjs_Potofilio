@@ -148,9 +148,9 @@
     .body{
         height: fit-content;
     }
-    .no{
-  display: none;
-    }
+  //   .no{
+  // display: none;
+  //   }
     .buttonContainer{
         position: relative;
     }
@@ -163,6 +163,19 @@
         padding: 0;
         margin: 0;
         height: fit-content;
+    }
+        .pd{
+padding-top: 20%;
+    }
+    .text{
+ position: relative;
+ top:40%
+
+    }
+    .text1{
+        position: absolute;
+        right: 0%;
+        top:"-80%";
     }
     
 }

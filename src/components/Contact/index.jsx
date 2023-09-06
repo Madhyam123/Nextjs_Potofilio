@@ -26,9 +26,9 @@ function Index() {
                             src={`/images/background 6.png`}
                             />
                         </div>
-                        <h2>Let's work</h2>
+                        <h2 className={styles.text1}>Let's work</h2>
                     </span>
-                    <h2>together</h2>
+                    <h2  className={styles.text}>together</h2>
                     <motion.div style={{x}} className={styles.buttonContainer}>
                         <Rounded  backgroundColor={"#334BD3"} className={styles.button}>
                             <p>Get in touch</p>

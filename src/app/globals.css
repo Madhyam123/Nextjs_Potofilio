@@ -1,10 +1,13 @@
+
 body{
     margin: 0px;
-    overflow-x: hidden; /* Hide scrollbars */
-    overflow:"visible";
+    overflow: hidden; /* Hide scrollbars */
     cursor: wait;
     width: 100vw;
     height: max-content;
 }
-
-
+@media (max-width:800px) {
+    body{
+        overflow: visible;
+    }
+}

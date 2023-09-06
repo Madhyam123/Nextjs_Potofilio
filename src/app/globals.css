@@ -1,12 +1,8 @@
 body{
     margin: 0px;
-    overflow: hidden; /* Hide scrollbars */
+    overflow: visible; /* Hide scrollbars */
     cursor: wait;
     width: 100vw;
     height: max-content;
 }
-@media (max-width:600px) {
-    .body{
-        overflow: visible;
-    }
-}
+

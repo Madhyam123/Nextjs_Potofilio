@@ -1,8 +1,10 @@
 body{
     margin: 0px;
-    overflow: visible; /* Hide scrollbars */
+    overflow-x: hidden; /* Hide scrollbars */
+    overflow:"visible";
     cursor: wait;
     width: 100vw;
     height: max-content;
 }
+
 

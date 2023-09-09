@@ -4,7 +4,7 @@ import { useRef } from 'react';
 import { slideUp, opacity } from './animation';
 import Rounded from '../../common/RoundedButton';
 import Image from 'next/image';
-import skills from '../../../public/images/Frame 1.png'
+import skills from '../../../public/images/Frame 2.png'
 function Index() {
 
     const phrase = "I am a skilled MERN stack developer and software engineer with a passion for creating robust web applications and solving complex problems in the digital realtime world.";

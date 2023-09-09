@@ -3,6 +3,8 @@ import { useInView, motion } from 'framer-motion';
 import { useRef } from 'react';
 import { slideUp, opacity } from './animation';
 import Rounded from '../../common/RoundedButton';
+import Image from 'next/image';
+import skills from '../../../public/images/Frame 1.png'
 function Index() {
 
     const phrase = "I am a skilled MERN stack developer and software engineer with a passion for creating robust web applications and solving complex problems in the digital realtime world.";
@@ -18,7 +20,11 @@ function Index() {
                         })
                     }
                 </p>
-                <motion.p variants={opacity} animate={isInView ? "open" : "closed"}>The combination of my passion for design, code & interaction positions me in a unique place in the web design world.</motion.p>
+                <motion.p variants={opacity} animate={isInView ? "open" : "closed"}>
+                    <Image src={skills} width="350px"
+      height="300px"
+      layout="responsive" />
+                </motion.p>
                 <div className="mobile-btn" data-scroll data-scroll-speed={0.1}>
                     <Rounded className={styles.button}>
                         <p>About me</p>

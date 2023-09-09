@@ -15,7 +15,7 @@ function Index() {
     const y = useTransform(scrollYProgress, [0, 1], [-500, 0])
     const rotate = useTransform(scrollYProgress, [0, 1], [120, 90])
     return (
-        <motion.div style={{y}} ref={container} className={styles.contact}>
+        <motion.div style={{y,paddingBottom:"500px",paddingTop:"100px"}} ref={container} className={styles.contact}>
             <div className={styles.body}>
                 <div className={styles.title}>
                     <span>
@@ -28,7 +28,7 @@ function Index() {
                         </div>
                         <h2 className={styles.text1}>Let's work</h2>
                     </span>
-                    <h2  className={styles.text}>together</h2>
+                    <h2 className={styles.text}>together</h2>
                     <motion.div style={{x}} className={styles.buttonContainer}>
                         <Rounded  backgroundColor={"#334BD3"} className={styles.button}>
                             <p>Get in touch</p>
@@ -42,12 +42,12 @@ function Index() {
                         <Rounded>
                             <p>madhyambharati@gmail.com</p>
                         </Rounded>
-{/*                         <Rounded>
+                        <Rounded>
                             <p className={styles.no}>+7021644253</p>
-                        </Rounded> */}
+                        </Rounded>
                 </div>
                 <div className={styles.info}>
-{/*                     <div>
+                    {/* <div>
                         <span>
                             <h3>Version</h3>
                             <p>2022 © Edition</p>
@@ -57,18 +57,18 @@ function Index() {
                             <p>11:49 PM GMT+2</p>
                         </span>
                     </div> */}
-                    <div>
+                    <div className={styles.pd}>
                         <span>
                             <h3>socials</h3>
                             <Magnetic>
-                                <p>Awwwards</p>
+                                <p>Resume</p>
                             </Magnetic>
                         </span>
                         <Magnetic>
-                            <p>Instagram</p>
+                            <p>Github</p>
                         </Magnetic>
                         <Magnetic>
-                            <p>Dribbble</p>
+                            <p>Medium</p>
                         </Magnetic>
                         <Magnetic>
                             <p>Linkedin</p>

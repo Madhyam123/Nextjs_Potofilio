@@ -9,7 +9,7 @@
     .body{
         padding-top: 200px;
         width: 100%;
-        max-width: 1800px;
+        max-width: 2500px;
         background-color: #141516;
 
         .title{
@@ -142,15 +142,16 @@
         width: 30px;
         height: 30px;
     }
-     .contact{
+    .contact{
         height: 100vh;
     }
     .body{
-        height: fit-content;
+        max-height: 2500px;
+        padding-top: 90%;
     }
-  //   .no{
-  // display: none;
-  //   }
+//     .no{
+//   display: none;
+//     }
     .buttonContainer{
         position: relative;
     }
@@ -159,12 +160,12 @@
         left: 50vw;
         top: -5vw
     }
-     .info{
+    .info{
         padding: 0;
         margin: 0;
         height: fit-content;
     }
-        .pd{
+    .pd{
 padding-top: 20%;
     }
     .text{
@@ -178,7 +179,6 @@ padding-top: 20%;
         top:"-80%";
     }
     .imageContainer{
-        visibility:"hidden";
-    
-}
+        visibility: hidden;
+    }
 }

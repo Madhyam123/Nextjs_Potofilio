@@ -21,7 +21,6 @@ function Index() {
                     }
                 </p>
                 <motion.p variants={opacity} animate={isInView ? "open" : "closed"}>
-                    <h1 style={{marginTop:"-30%",color:"#455CE9"}}><b>SKIILS</b></h1>
                     <Image src={skills} width="350px"
       height="300px"
       layout="responsive" />

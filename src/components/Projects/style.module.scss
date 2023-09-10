@@ -5,6 +5,8 @@
     padding-right: 200px;
     flex-direction: column;
     margin-top: 300px;
+    text-decoration: none;
+    
 
     .body{
         max-width: 1400px;
@@ -14,6 +16,11 @@
         align-items: center;
         justify-content: center;
         margin-bottom: 100px;
+
+
+        .name{
+            text-decoration: none;
+        }
     }
     
     .modalContainer{

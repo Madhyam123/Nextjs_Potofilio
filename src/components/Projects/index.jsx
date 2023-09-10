@@ -10,8 +10,8 @@ import Link from 'next/link';
 
 const projects = [
   {
-    title: "C2 Montreal",
-    src: "c2montreal.png",
+    title: "ECOMMERCE WEBSITE",
+    src: "ecom.png",
     stack: "TECH STACK 1.REACT 2.TAILWINDCSS 3.REDUX 4.OUTH 5.STRIPE",
     Feature:"1.React redux state management 2.Outh authentication 3.React chart admin dashboard 4.Stripe Payment Gateway",
     color: "#000000",
@@ -19,8 +19,8 @@ const projects = [
   
   },
   {
-    title: "Office Studio",
-    src: "officestudio.png",
+    title: "Machine Design",
+    src: "image 4.png",
     stack: "TECH STACK 1.HTML 2.CSS 3.JAVASCRIPT 4.GSAP 5.LOCOMOTIVE SCROLL",
     Feature:"1.Animation 2.Best User Interface 3.Smooth Scroll 4.Onscroll effects",
     color: "#8C8C8C",

@@ -6,27 +6,33 @@ import { motion } from 'framer-motion';
 import gsap from 'gsap';
 import Image from 'next/image';
 import Rounded from '../../common/RoundedButton';
+import Link from 'next/link';
 
 const projects = [
   {
     title: "Madhyam",
     src: "image 3.png",
-    color: "#00A86B"
+    color: "#00A86B",
+    href:"https://madhyamecommercesite.netlify.app/"
+    
   },
   {
     title: "Frontend Machine",
     src: "image 4.png",
-    color: "#8C8C8C"
+    color: "#8C8C8C",
+    href:"https://madhyammachine.netlify.app/"
   },
   {
     title: "Locomotive",
     src: "locomotive.png",
-    color: "#EFE8D3"
+    color: "#EFE8D3",
+    href:"https://madhyamecommercesite.netlify.app/"
   },
   {
     title: "Silencio",
     src: "silencio.png",
-    color: "#706D63"
+    color: "#706D63",
+    href:"https://madhyammachine.netlify.app/"
   }
 ]
 
@@ -81,7 +87,7 @@ export default function Home() {
     <div className={styles.body}>
       {
         projects.map( (project, index) => {
-          return <Project index={index} title={project.title} manageModal={manageModal} key={index}/>
+          return <Link className={styles.name} href={project.href}><Project  href={project.href}  index={index} title={project.title} manageModal={manageModal} key={index}  /></Link>
         })
       }
     </div>

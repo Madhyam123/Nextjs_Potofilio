@@ -13,7 +13,7 @@ const projects = [
     title: "ECOMMERCE WEBSITE",
     src: "ecom.png",
     stack: "TECH STACK 1.REACT 2.TAILWINDCSS 3.REDUX 4.OUTH 5.STRIPE",
-    Feature:"1.React redux state management 2.Outh authentication 3.React chart admin dashboard 4.Stripe Payment Gateway",
+    Feature:"Features-1.React redux state management 2.Outh authentication 3.React chart admin dashboard 4.Stripe Payment Gateway",
     color: "#000000",
     href:"https://madhyamecommercesite.netlify.app/"
   
@@ -22,19 +22,23 @@ const projects = [
     title: "Machine Design",
     src: "image 4.png",
     stack: "TECH STACK 1.HTML 2.CSS 3.JAVASCRIPT 4.GSAP 5.LOCOMOTIVE SCROLL",
-    Feature:"1.Animation 2.Best User Interface 3.Smooth Scroll 4.Onscroll effects",
+    Feature:"Features-1.Animation 2.Best User Interface 3.Smooth Scroll 4.Onscroll effects",
     color: "#8C8C8C",
     href:"https://madhyammachine.netlify.app/"
   },
   {
     title: "Locomotive",
     src: "locomotive.png",
+    stack: "TECH STACK 1.REACT 2.TAILWINDCSS 3.REDUX 4.OUTH 5.STRIPE",
+    Feature:"Features-1.React redux state management 2.Outh authentication 3.React chart admin dashboard 4.Stripe Payment Gateway",
     color: "#EFE8D3",
     href:"https://madhyamecommercesite.netlify.app/"
   },
   {
     title: "Silencio",
     src: "silencio.png",
+    stack: "TECH STACK 1.HTML 2.CSS 3.JAVASCRIPT 4.GSAP 5.LOCOMOTIVE SCROLL",
+    Feature:"Features-1.Animation 2.Best User Interface 3.Smooth Scroll 4.Onscroll effects",
     color: "#706D63",
     href:"https://madhyamecommercesite.netlify.app/"
   }
